@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image:url("damned.webp");
+    background-size: contain ;
+    background-position: center;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+   
+    float:right;
+  
+  
+}
+
+
+.nav a{
+    text-decoration: none;
+    font-size:20px;
+    background:white;
+     border-radius: 1.25rem;
+    padding:20px;
+    color:black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img {
+    display: flex;
+  ;
+    align-items: flex-start;
+    min-height: 70vh; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    font-size:40px;
+    font-weight: bold;
+}
+
+.text{
+    margin-top:0;
+    color:black;
+    font-size:30px;
+    padding:20px;
+    
+}
+
+.button{
+    border-radius:40px;
+    margin-top:0;
+    
+}
+.button button{
+    font-size:1.3rem;
+    padding:0.8rem 2rem;
+    margin:20px;
+    
+    
+   
+}
+
+.footer{
+    display:flex;
+    bottom:0;
+    align-items:center;
+    color: black;
+    background-color: white;
+    width:100%;
+   padding:40px 0;
+}
+
+.footer img {
+     display:flex;
+    width: 480px;
+    height: auto;
+}
+ 
+.footer p{
+
+
+}
+
+.footer .low {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+}
